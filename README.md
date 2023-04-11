@@ -43,3 +43,13 @@ http://localhost:3000/api/v2/seed
 
 - MongoDb
 - Nest
+
+# Production Build
+
+1. Create file `.env.prod`
+2. Set environment variables
+3. Create Images
+
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
