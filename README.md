@@ -23,7 +23,17 @@ npm -i g @nest/cli
 docker-compose up -d
 ```
 
-5. Rebuild database with seed
+5. Clone file **.example.env** to **.env**
+
+6. Set those environment variables
+
+7. Execute app in dev environment:
+
+```
+npm run start:dev
+```
+
+8. Rebuild database with seed
 
 ```
 http://localhost:3000/api/v2/seed
