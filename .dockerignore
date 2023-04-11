@@ -1,4 +1,8 @@
 dist/
 node_modules/
+mongo/
 .gitignore
 .git/
+
+test/
+.example.env
